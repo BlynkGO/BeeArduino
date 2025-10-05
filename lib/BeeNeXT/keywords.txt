@@ -1,0 +1,87 @@
+#######################################
+# Syntax Coloring Map LowPower
+#######################################
+
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BeeNeXT	KEYWORD1
+LCD	KEYWORD1
+MCU	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+BEENEXT_DATA	KEYWORD2
+LCD_DATA	KEYWORD2
+MCU_DATA	KEYWORD2
+SERIAL_DATA	KEYWORD2
+BEENEXT_CONNECTED	KEYWORD2
+BEENEXT_DISCONNECTED	KEYWORD2
+LCD_CONNECTED	KEYWORD2
+LCD_DISCONNECTED	KEYWORD2
+MCU_CONNECTED	KEYWORD2
+MCU_DISCONNECTED	KEYWORD2
+
+# BeeNeXT API
+begin	KEYWORD2
+update	KEYWORD2
+end	KEYWORD2
+enable	KEYWORD2
+heartbeat	KEYWORD2
+connected	KEYWORD2
+isConnected	KEYWORD2
+toString	KEYWORD2
+toInt	KEYWORD2
+toFloat	KEYWORD2
+toDouble	KEYWORD2
+toBool	KEYWORD2
+toBytes	KEYWORD2
+c_str	KEYWORD2
+data	KEYWORD2
+key	KEYWORD2
+value	KEYWORD2
+send	KEYWORD2
+event_send	KEYWORD2
+
+# BeeNeXT SoftTimer API
+setInterval	KEYWORD2
+setOnce	KEYWORD2
+delay	KEYWORD2
+del	KEYWORD2
+pause	KEYWORD2
+replay	KEYWORD2
+run	KEYWORD2
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+SoftTimer	LITERAL1
+CMD_LIGHT_OFF	LITERAL1
+CMD_LIGHT_ON	LITERAL1
+CMD_SD_DIR	LITERAL1
+CMD_WIFI_SETTING	LITERAL1
+CMD_WIFI_CONNECT	LITERAL1
+CMD_WIFI_DISCONNECT	LITERAL1
+CMD_CAPTURE_2_SPIFFS	LITERAL1
+CMD_CAPTURE_2_SD	LITERAL1
+CMD_LINE_NOTIFY	LITERAL1
+EVENT_BEENEXT_CONNECTED	LITERAL1
+EVENT_BEENEXT_DISCONNECTED	LITERAL1
+EVENT_BEENEXT_DATA	LITERAL1
+EVENT_SERIAL_DATA	LITERAL1
+
