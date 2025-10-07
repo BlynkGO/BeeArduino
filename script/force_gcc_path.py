@@ -4,7 +4,7 @@ from os.path import join
 Import("env")
 
 # path ของ toolchain relative กับ PROJECT_DIR
-toolchain_path = join(env['PROJECT_DIR'], "toolchain", "mingw64", "bin")
+toolchain_path = join(env['PROJECT_DIR'], "toolchain", "bin")
 
 # ตั้ง compiler และ PATH
 env.Replace(
