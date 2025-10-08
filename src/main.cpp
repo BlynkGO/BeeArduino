@@ -11,8 +11,8 @@ void setup(){
   static SoftTimer timer;
   timer.setInterval(10,[](){
     if(COM3.available()){
-      int c = COM3.readStringUntil('\n').toInt();
-      Serial.println(c);
+      String raw = COM3.readStringUntil('\n'); raw.trim();
+      Serial.println(raw);
     }
   });
 }

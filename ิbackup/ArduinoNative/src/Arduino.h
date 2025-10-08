@@ -207,7 +207,7 @@ void shiftOut(uint8_t dataPin, uint8_t clockPin, uint8_t bitOrder, uint8_t val);
 // #include "WCharacter.h"
 #include "WString.h"
 #include "PC_Serial.h"
-#include "WinSerial.h"
+#include "HardwareSerial.h"
 // #include "Stream.h"
 #include "Printable.h"
 // #include "Print.h"

@@ -25,7 +25,7 @@ class PC_Serial {
     void print(float f, int32_t decimal=2);
     void print(double f, int32_t decimal=2);
 
-    inline void println()                                 { std::printf("\n"); fflush(stdout);  }
+    inline void println()                                 { std::printf("\n"); fflush(stdout); }
     inline void println(int n)                            { print(n); println();            }
     inline void println(uint32_t n)                       { print(n); println();            }
     inline void println(unsigned long n)                  { print(n); println();            }

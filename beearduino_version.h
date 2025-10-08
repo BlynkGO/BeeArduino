@@ -5,5 +5,5 @@
 /** Minor version number (x.X.x) */
 #define BEEARDUINO_VERSION_MINOR   2
 /** Patch version number (x.x.X) */
-#define BEEARDUINO_VERSION_PATCH   0
+#define BEEARDUINO_VERSION_PATCH   1
 
