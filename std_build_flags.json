@@ -1,0 +1,29 @@
+{
+  "build_flags": [
+    "-w",
+    "-std=c++17",
+    "-fpermissive",
+    
+    "-Iplatform/cores/ArduinoNative/src",
+    "-Iplatform/cores/BeeArduino/src",
+    "-Iplatform/libraries/WinTimeAlarm/src",
+    "-Ilib/BeeNext/src",
+
+    "-Lplatform/lib",
+    "-lBeeArduino",
+    "-lBeeNext",
+
+    "-lbcrypt",
+    "-lSDL2",
+    "-lsetupapi",
+    "-lole32 -lwlanapi",
+
+    "-lrpcrt4",
+    "-lws2_32 -lcrypt32",
+    "-lpaho-mqtt3a-static -lpaho-mqttpp3-static",
+    "-lcurl -lssl -lcrypto -lz -lwinmm",
+
+    "-lole32",
+    "-lcomdlg32"
+  ]
+}
